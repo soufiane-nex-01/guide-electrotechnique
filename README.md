@@ -1,3 +1,9 @@
+> **Publication en cours — dépôt incomplet.** Le transfert des fichiers a été interrompu. Les sources présentes ne permettent pas encore de construire l’application. Les téléchargements Android et Windows ne sont pas encore disponibles sur GitHub.
+>
+> **النشر غير مكتمل:** انقطع رفع الملفات؛ ملفات المشروع الموجودة هنا غير كافية للبناء، ولم تُنشر ملفات تنزيل Android وWindows بعد.
+>
+> **Upload incomplete:** this repository is not yet buildable. Android and Windows release downloads have not been published.
+
 <div align="center">
 
 ![Guide Electrotechnique — NEX-01](docs/banner.svg)
@@ -8,7 +14,6 @@ Français · العربية · English | Windows · Android 9+ | Version 1.4.0
 
 [العربية](docs/README.ar.md) · [English](docs/README.en.md) · [Installation et construction](docs/BUILD.md) · [Notes de version](docs/CHANGELOG-1.4.0.md)
 
-[Télécharger pour Android](https://github.com/soufiane-nex-01/guide-electrotechnique/releases/download/v1.4.0/Guide-Electrotechnique-Android.apk) · [Télécharger pour Windows](https://github.com/soufiane-nex-01/guide-electrotechnique/releases/download/v1.4.0/Guide-Electrotechnique.zip) · [Tous les fichiers de la version 1.4.0](https://github.com/soufiane-nex-01/guide-electrotechnique/releases/tag/v1.4.0)
 
 </div>
 
