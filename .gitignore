@@ -1,0 +1,28 @@
+# Local credentials and Android signing material
+**/signature-privee/
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.pem
+*.key
+**/mot-de-passe.txt
+.env
+.env.*
+!.env.example
+**/local.properties
+# Build outputs and release downloads
+**/build/
+**/build-log.json
+**/VERIFICATION-ANDROID.json
+*.apk
+*.aab
+*.exe
+*.zip
+*.idsig
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+test-results/

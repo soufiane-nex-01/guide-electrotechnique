@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05070A">
+  <meta name="description" content="Bibliothèque locale de cours, simulations et ressources en électrotechnique.">
+  <title>Guide des Métiers de l’Electrotechnique</title>
+  <link rel="icon" href="vendor/icons/zap.svg" type="image/svg+xml">
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="i18n.css">
+  <link rel="stylesheet" href="labs.css">
+  <link rel="stylesheet" href="legacy-simulators.css">
+  <script defer src="i18n.js"></script>
+  <script defer src="electro-models.js"></script>
+  <script defer src="labs.js"></script>
+  <script defer src="legacy-models.js"></script>
+  <script defer src="legacy-curves.js"></script>
+  <script defer src="legacy-simulators.js"></script>
+  <script defer src="exams.js"></script>
+  <script defer src="lexicon.js"></script>
+  <link rel="stylesheet" href="learning.css">
+  <script defer src="learning.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <button class="scrim" id="scrim" aria-label="Fermer le menu" hidden></button>
+  <aside class="sidebar" id="sidebar" aria-label="Navigation principale">
+    <a class="brand" href="#/home"><span class="brand-mark"><i data-icon="zap"></i></span><span>ÉLECTROTECHNIQUE<small>LE GUIDE DES MÉTIERS</small></span></a>
+    <div class="nav-label">ESPACE DE CONNAISSANCES</div>
+    <nav id="navigation">
+      <a href="#/home" data-nav="home"><i data-icon="house"></i>Vue d’ensemble</a>
+      <a href="#/learn" data-nav="learn"><i data-icon="graduation-cap"></i>Parcours de progression</a>
+      <a href="#/simulations" data-nav="simulations"><i data-icon="circuit-board"></i><span id="sim-nav-label" data-no-translate>Simulations du guide</span></a>
+      <a href="#/lab" data-nav="lab"><i data-icon="activity"></i>Laboratoire interactif</a>
+      <a href="#/exam" data-nav="exam"><i data-icon="check-check"></i>Évaluation pratique</a>
+      <a href="#/workshop" data-nav="workshop"><i data-icon="circuit-board"></i>Atelier électrique</a>
+      <a href="#/library" data-nav="library"><i data-icon="book-open"></i>Toutes les fiches<span class="nav-count" id="nav-count">…</span></a>
+      <a href="#/domains" data-nav="domains"><i data-icon="layers"></i>Domaines</a>
+      <a href="#/lexicon" data-nav="lexicon"><i data-icon="book-open"></i>Lexique français–arabe</a>
+      <a href="#/documents" data-nav="documents"><i data-icon="folder-open"></i>Ressources PDF</a>
+      <div class="nav-label">MON ESPACE</div>
+      <a href="#/saved" data-nav="saved"><i data-icon="bookmark"></i>Mes favoris</a>
+      <a href="#/history" data-nav="history"><i data-icon="history"></i>Historique</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <a href="#/settings" data-nav="settings"><i data-icon="settings"></i>Préférences</a>
+      <a href="#/about" data-nav="about"><i data-icon="info"></i>À propos de l’app</a>
+      <div class="local-note"><i data-icon="monitor"></i><span>Votre bibliothèque locale<small>Sans compte · Sans connexion</small></span></div>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="open-menu" aria-label="Ouvrir le menu" aria-expanded="false"><i data-icon="menu"></i></button>
+      <div class="breadcrumb" id="breadcrumb">Bibliothèque <i data-icon="chevron-right"></i> Vue d’ensemble</div>
+      <button class="search-trigger" id="search-trigger"><i data-icon="search"></i><span>Rechercher une notion, une fiche…</span><kbd>Ctrl K</kbd></button>
+      <a class="icon-button" href="#/saved" aria-label="Mes favoris"><i data-icon="bookmark"></i></a>
+    </header>
+    <main id="main" tabindex="-1"><div class="loading-grid" aria-label="Chargement de la bibliothèque" role="status"><div class="skeleton wide"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></main>
+    <footer><span>Guide des Métiers de l’Electrotechnique</span><span>Apprendre. Expérimenter. Comprendre.</span></footer>
+  </div>
+  <dialog id="search-dialog" aria-labelledby="search-title">
+    <div class="command-head"><i data-icon="search"></i><label class="sr-only" id="search-title" for="global-search">Rechercher dans le guide</label><input id="global-search" type="search" placeholder="Une notion, un chapitre, un domaine…" autocomplete="off"><button class="icon-button" id="close-search" aria-label="Fermer la recherche"><i data-icon="x"></i></button></div>
+    <div class="search-results" id="search-results"></div>
+    <div class="command-footer"><span>Rechercher dans les contenus du guide</span><span><kbd>Esc</kbd> Fermer</span></div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript>Activez JavaScript pour consulter la bibliothèque interactive.</noscript>
+</body>
+</html>

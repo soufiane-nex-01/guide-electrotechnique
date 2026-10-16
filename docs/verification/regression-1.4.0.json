@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Home renders seven actual domains and source counts",
+    "status": "pass"
+  },
+  {
+    "name": "Catalog pagination: first 24 of 615",
+    "status": "pass"
+  },
+  {
+    "name": "Accent-insensitive search returns relevant lessons",
+    "status": "pass"
+  },
+  {
+    "name": "Domain filter keeps only S5 results",
+    "status": "pass"
+  },
+  {
+    "name": "Combined search and domain filters show honest empty state",
+    "status": "pass"
+  },
+  {
+    "name": "Pagination advances and reset restores catalog",
+    "status": "pass"
+  },
+  {
+    "name": "Original lesson text is displayed in native reader",
+    "status": "pass"
+  },
+  {
+    "name": "Bookmark and read state persist locally",
+    "status": "pass"
+  },
+  {
+    "name": "Native Ohm calculator: 24 ohms times 0.5 A = 12 V",
+    "status": "pass"
+  },
+  {
+    "name": "Native Ohm calculator: 12 V / 24 ohms = 0.5 A",
+    "status": "pass"
+  },
+  {
+    "name": "Invalid divisor is rejected",
+    "status": "pass"
+  },
+  {
+    "name": "Activity requires deliberate launch and exposes player controls",
+    "status": "pass"
+  },
+  {
+    "name": "Missing original activity is explicitly identified",
+    "status": "pass"
+  },
+  {
+    "name": "Saved page contains bookmarked lesson",
+    "status": "pass"
+  },
+  {
+    "name": "History records recent visits",
+    "status": "pass"
+  },
+  {
+    "name": "All eight original PDFs have real local links",
+    "status": "pass"
+  },
+  {
+    "name": "Android PDF opening uses the native reader for all eight documents",
+    "status": "pass"
+  },
+  {
+    "name": "Android PDF saving uses the system file chooser for all eight documents",
+    "status": "pass"
+  },
+  {
+    "name": "Actual chapter navigation is populated",
+    "status": "pass"
+  },
+  {
+    "name": "Reading preference applies and persists",
+    "status": "pass"
+  },
+  {
+    "name": "Search dialog renders linked results",
+    "status": "pass"
+  },
+  {
+    "name": "Skip link focuses content without breaking route",
+    "status": "pass"
+  },
+  {
+    "name": "No script errors during covered flows",
+    "status": "pass"
+  }
+]

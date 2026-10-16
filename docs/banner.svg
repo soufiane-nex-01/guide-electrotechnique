@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Guide des Métiers de l’Electrotechnique, NEX-01, version 1.4.0">
+<rect width="1200" height="280" rx="16" fill="#05070a"/><rect x="1" y="1" width="1198" height="278" rx="15" fill="none" stroke="#24313f"/>
+<g fill="none" stroke="#00a8ff" opacity=".25" stroke-width="2"><path d="M790 0v60h72v68h150v65h188M900 0v40h100v55h200M750 280v-50h136v-45h58M1100 280v-50h100"/><circle cx="862" cy="128" r="5"/><circle cx="1012" cy="193" r="5"/><circle cx="944" cy="185" r="5"/></g>
+<path d="M66 58h42L83 101h30l-51 64 14-50H50z" fill="#00a8ff"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif"><text x="145" y="77" fill="#00a8ff" font-size="15" letter-spacing="3">NEX-01 · PLATEFORME PÉDAGOGIQUE</text><text x="145" y="130" fill="#f5f5f5" font-size="34" font-weight="600">Guide des Métiers</text><text x="145" y="174" fill="#f5f5f5" font-size="34" font-weight="600">de l’Electrotechnique</text><text x="145" y="228" fill="#aab2bd" font-size="17">Comprendre · Expérimenter · Progresser</text><text x="1050" y="241" fill="#aab2bd" font-size="14">v1.4.0</text></g></svg>

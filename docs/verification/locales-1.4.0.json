@@ -1,0 +1,182 @@
+[
+  {
+    "lang": "fr",
+    "route": "#/home",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/library",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/domains",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/settings",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/about",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/documents",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/lexicon",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/learn",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/lab",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/exam",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "route": "#/simulations",
+    "status": "pass"
+  },
+  {
+    "lang": "fr",
+    "test": "all36lessons, native-original toggle, notes, offline assets and themes",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/home",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/library",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/domains",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/settings",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/about",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/documents",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/lexicon",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/learn",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/lab",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/exam",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "route": "#/simulations",
+    "status": "pass"
+  },
+  {
+    "lang": "en",
+    "test": "all36lessons, native-original toggle, notes, offline assets and themes",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/home",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/library",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/domains",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/settings",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/about",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/documents",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/lexicon",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/learn",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/lab",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/exam",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "route": "#/simulations",
+    "status": "pass"
+  },
+  {
+    "lang": "ar",
+    "test": "all36lessons, native-original toggle, notes, offline assets and themes",
+    "status": "pass"
+  }
+]

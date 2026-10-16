@@ -1,0 +1,322 @@
+[
+  {
+    "platform": "desktop",
+    "name": "Home preserves original counts and exposes the new learning entry",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Workshop opens without downloading lesson data or a runtime",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Series model computes 300 ohm, 0.04 A, 0.48 W",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Parallel model computes branch currents and total power",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Circuit rejects zero resistance",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Circuit rejects empty input",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Energy result is 9 kWh for 60 W, 5 h/day, 30 days",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Daily energy rejects more than 24 h",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Calculators accept French decimal commas",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Milliampere conversion is correct",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Unit converter rejects nonfinite values",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Failed lesson fetch has an actionable retry",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Six paths render; invalid stored progress is sanitized",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Learning search tolerates omitted accents",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Search has a helpful empty state",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Path shows six linked stages and current read status",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Lesson offers prerequisites, worked example, practice, sources and quiz",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Partial quiz does not save a score",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Incorrect answers are explained and are not marked as mastered",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Review lists a lesson with a wrong latest answer",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Last answers survive navigation",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "All 36 lessons render and all 72 correct answers score accurately",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Progress totals are derived from read state and latest quiz results",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Learning data fetched once successfully then cached",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Review clears corrected questions",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Local progress restores after module reload",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "A later wrong attempt keeps best score but enters review again",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Unknown lesson route has a recovery link",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "NEX-01 mission coexists with historical authorship",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "New routes inherit saved light theme",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "Confirmed reset includes new learning progress",
+    "status": "pass"
+  },
+  {
+    "platform": "desktop",
+    "name": "No JavaScript errors in covered flows",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Home preserves original counts and exposes the new learning entry",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Workshop opens without downloading lesson data or a runtime",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Series model computes 300 ohm, 0.04 A, 0.48 W",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Parallel model computes branch currents and total power",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Circuit rejects zero resistance",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Circuit rejects empty input",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Energy result is 9 kWh for 60 W, 5 h/day, 30 days",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Daily energy rejects more than 24 h",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Calculators accept French decimal commas",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Milliampere conversion is correct",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Unit converter rejects nonfinite values",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Failed lesson fetch has an actionable retry",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Six paths render; invalid stored progress is sanitized",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Learning search tolerates omitted accents",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Search has a helpful empty state",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Path shows six linked stages and current read status",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Lesson offers prerequisites, worked example, practice, sources and quiz",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Partial quiz does not save a score",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Incorrect answers are explained and are not marked as mastered",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Review lists a lesson with a wrong latest answer",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Last answers survive navigation",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "All 36 lessons render and all 72 correct answers score accurately",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Progress totals are derived from read state and latest quiz results",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Learning data fetched once successfully then cached",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Review clears corrected questions",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Local progress restores after module reload",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "A later wrong attempt keeps best score but enters review again",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Unknown lesson route has a recovery link",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "NEX-01 mission coexists with historical authorship",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "New routes inherit saved light theme",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "Confirmed reset includes new learning progress",
+    "status": "pass"
+  },
+  {
+    "platform": "android",
+    "name": "No JavaScript errors in covered flows",
+    "status": "pass"
+  }
+]
