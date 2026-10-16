@@ -1,0 +1,26 @@
+name: Publish verified Guide Electrotechnique files
+on:
+  push:
+    branches: [publication-transfer-v1.4.0]
+permissions:
+  contents: write
+concurrency:
+  group: guide-electrotechnique-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'soufiane-nex-01/guide-electrotechnique'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Read the authorized transfer commit
+        shell: bash
+        run: |
+          git init .
+          git remote add origin https://github.com/soufiane-nex-01/guide-electrotechnique.git
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Verify and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 transfer/assemble.py

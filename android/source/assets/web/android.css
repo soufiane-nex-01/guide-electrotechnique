@@ -1,2 +1,0 @@
-/* Android touch targets; the shared desktop design remains unchanged. */
-html{overscroll-behavior-x:none}body{overscroll-behavior-y:contain}.icon-button{min-height:44px;min-width:44px}.text-link{min-height:44px;display:inline-flex;align-items:center}.tab{min-height:48px}.tabs{overflow-x:auto;scrollbar-width:none}.button{min-height:44px}.command-footer{display:none}.player-stage{touch-action:auto}@media(max-width:520px){.filterbar select{font-size:13px}.lesson-tools .button{font-size:12px}.doc-actions{flex-wrap:wrap}.hero-actions{flex-wrap:wrap}}
